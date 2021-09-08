@@ -4,7 +4,7 @@ button {
   width: 50px;
   border-radius: 50%;
   border-color: transparent;
-  background-color: #FFE194;
+  background-color: #297F87;
   color: #fff;
   font-size: 30px;
   padding-bottom: 6px;
@@ -12,16 +12,16 @@ button {
 }
 
 footer {
-  color: white;
-  color: rgba(0, 0, 0, 0.5);
+  color: #FFF8E5;
+  /* color: rgba(0, 0, 0, 0.5); */
   text-align: center;
 }
 
 html {
   background-color: #FEFBF3;
-  background-image: -webkit-linear-gradient(65deg, #B8DFD8 50%, #E8F6EF 50%);
+  background-image: -webkit-linear-gradient(65deg, #297F87 50%, #FFF8E5 50%);
   min-height: 1000px;
-  font-family: 'Courier New', monospace;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1 {
@@ -59,14 +59,14 @@ p {
 
 /* IDS */
 #heading {
-  background-color: #FFB319;
+  background-color: #297F87;
   text-align: center;
 }
 
 /* INTERACTIVE */
 input:checked+p {
   text-decoration: line-through;
-  text-decoration-color: #FFB319;
+  text-decoration-color: #297F87;
 }
 
 input[type="checkbox"] {
@@ -91,7 +91,7 @@ input[type="text"] {
 
 input[type="text"]:focus {
   outline: none;
-  box-shadow: inset 0 -3px 0 0 #FFE194;
+  box-shadow: inset 0 -3px 0 0 #297F87;
 }
 
 ::placeholder {
