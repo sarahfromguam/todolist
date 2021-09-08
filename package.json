@@ -4,13 +4,13 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
   },
   "author": "",
   "license": "ISC",
-  "enginers": {
+  "engines": {
     "node": "14.17.3",
-  }
+  },
   "dependencies": {
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
